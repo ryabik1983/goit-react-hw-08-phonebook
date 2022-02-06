@@ -1,28 +1,27 @@
 .list {
-  /* list-style: none; */
+  list-style: none;
   margin: 0;
   padding: 10px;
 }
 .item {
   display: flex;
   justify-content: space-between;
-}
-.item:not(:last-child) {
-  margin-bottom: 10px;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
   align-items: baseline;
 }
 .btn {
   display: inline;
   width: 100px;
   height: 30px;
-  background: #ef2828;
+  background: #f36666;
   border: none;
   border-radius: 3px;
-}
-.btn:hover,
-.btn:focus {
-  cursor: pointer;
-  /* background: #ef2828; */
+  &:hover,
+  &:focus {
+    background: #ef2828;
+  }
 }
 
 .span {

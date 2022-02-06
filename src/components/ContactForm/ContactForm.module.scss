@@ -1,44 +1,23 @@
-.contact_form {
+.formContainer {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
 }
-.label {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  align-items: baseline;
-  cursor: pointer;
+
+.form {
+  width: 400px;
+  // margin: 0 auto;
 }
+
 .input {
-  display: block;
-  width: 280px;
-  text-align: left;
-  height: 20px;
-  border: 1px solid green;
-  border-radius: 3px;
-  outline: none;
-  cursor: pointer;
+  width: 385px;
 }
-.input:focus {
-  border-color: #2bd52b;
+.btn {
+  width: 400px;
 }
-
-.input::placeholder {
-  color: #797979;
+.error {
+  color: red;
   text-align: center;
-}
-
-.submit {
-  display: block;
-  margin: 0 auto 20px;
-  width: 200px;
-  height: 30px;
-  background: #8454bb;
-  border: none;
-  border-radius: 3px;
-}
-.submit:hover,
-.submit:focus {
-  background: #d52bb9;
 }
